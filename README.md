@@ -1,11 +1,28 @@
-# password
-A Bash script to generate password
+# 🔐 Password Generator
 
-# Generate a password 
+A simple Bash script to generate random passwords directly from your terminal.
 
-First of all, you need to make the file executable :
-'sudo chmod +x password.sh'
+## 🚀 Generate a password
 
-You can now generate a password of n characters :
+First, make the script executable:
 
-'./password.sh 12'
+```bash
+chmod +x password.sh
+```
+
+Then, generate a password by specifying the desired length. For example, to generate a password containing 12 characters, run:
+
+```bash
+./password.sh 12
+```
+
+### Example output
+
+```text
+aZ7@kL2!mP9x
+```
+
+## ⚙️ Requirements
+
+- Linux
+- Bash
